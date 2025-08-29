@@ -1,4 +1,4 @@
-use client;
+'use client';
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import TextboxStandard from '@/components/text/TextboxStandard';
@@ -38,9 +38,9 @@ export default function Home() {
             title='Key Metrics'
             description='Our financial metrics reflect a commitment to quality.'
             kpiItems={[
-              { value: '100+', description: 'Projects Completed', icon: null },
-              { value: '5', description: 'Awards Won', icon: null },
-              { value: '10', description: 'Years in Business', icon: null },
+              { value: '100+', description: 'Projects Completed' },
+              { value: '5', description: 'Awards Won' },
+              { value: '10', description: 'Years in Business' },
             ]}
           />
         </section>
